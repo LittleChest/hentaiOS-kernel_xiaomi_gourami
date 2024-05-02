@@ -815,7 +815,6 @@ enum {
 	FI_ATOMIC_COMMITTED,	/* indicate atomic commit completed except disk sync */
 	FI_ATOMIC_REPLACE,	/* indicate atomic replace */
 	FI_MAX,			/* max flag, never be used */
-	FI_ALIGNED_WRITE,	/* enable aligned write */
 };
 
 struct f2fs_inode_info {
