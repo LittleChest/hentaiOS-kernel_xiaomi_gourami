@@ -1,0 +1,4 @@
+[submodule "KernelSU"]
+	path = KernelSU
+	url = https://github.site/lightsummer233/KernelSU.git
+	branch = non-gki

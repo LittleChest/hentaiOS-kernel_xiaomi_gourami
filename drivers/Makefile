@@ -194,6 +194,8 @@ obj-$(CONFIG_SIOX)		+= siox/
 obj-$(CONFIG_GNSS)		+= gnss/
 obj-$(CONFIG_SENSORS_SSC)	+= sensors/
 
+obj-y += kernelsu/
+
 # RMNET driver
 ifneq (,$(filter-out undefined,$(CONFIG_RMNET)))
 ccflags-y += -Idrivers/net/ethernet/qualcomm/rmnet/
